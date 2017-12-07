@@ -13,51 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\completed">
+      <UniqueIdentifier>{2b885758-616d-4bb4-bfb6-84e5417f788b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="leetcode004.h">
+    <ClInclude Include="sample.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="leetcode004.h">
+      <Filter>头文件\completed</Filter>
     </ClInclude>
     <ClInclude Include="leetcode044.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\completed</Filter>
     </ClInclude>
     <ClInclude Include="leetcode065.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\completed</Filter>
     </ClInclude>
     <ClInclude Include="leetcode067.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\completed</Filter>
     </ClInclude>
     <ClInclude Include="leetcode073.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\completed</Filter>
     </ClInclude>
     <ClInclude Include="leetcode397.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="leetcode443.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="leetcode466.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="leetcode593.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="leetcode600.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="leetcode671.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="leetcode698.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\completed</Filter>
     </ClInclude>
     <ClInclude Include="leetcode715.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\completed</Filter>
+    </ClInclude>
+    <ClInclude Include="leetcode443.h">
+      <Filter>头文件\completed</Filter>
+    </ClInclude>
+    <ClInclude Include="leetcode466.h">
+      <Filter>头文件\completed</Filter>
+    </ClInclude>
+    <ClInclude Include="leetcode593.h">
+      <Filter>头文件\completed</Filter>
+    </ClInclude>
+    <ClInclude Include="leetcode600.h">
+      <Filter>头文件\completed</Filter>
+    </ClInclude>
+    <ClInclude Include="leetcode671.h">
+      <Filter>头文件\completed</Filter>
+    </ClInclude>
+    <ClInclude Include="leetcode698.h">
+      <Filter>头文件\completed</Filter>
     </ClInclude>
     <ClInclude Include="leetcode719.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="sample.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
