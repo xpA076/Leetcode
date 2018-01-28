@@ -14,15 +14,23 @@ using namespace std;
 class Solution {
 public:
 	int findPairs(vector<int>& nums, int k) {
-		if (nums.size() == 1) { return 0; }
+		if (nums.size() <= 1) { return 0; }
 		sort(nums.begin(), nums.end());
-		int idx = 0;
+		int idx = 1;
 		int count = 0;
+		int lastcount = nums.at(0);
+		int endnum = nums.at(nums.size() - 1);
 		for (int i = 0; i < nums.size() - 1; ++i) {
-			if (nums.at(i) > *nums.end() - k) {	break; }
-			if (i != 0 && nums.at(i) == nums.at(i - 1)) { continue;	}
-			4
+			if (nums.at(i) > endnum - k) {	break; }
+			if (i != 0 && nums.at(i) == lastcount) { continue;	}
+			if (idx <= i) { idx = i + 1; }
+			while (nums.at(idx) < nums.at(i) + k) { ++idx; }
+			if (nums.at(idx) == nums.at(i) + k) { 
+				++count; 
+				lastcount = nums.at(i); 
+			}
 		}
+		return count;
 	}
 };
 
